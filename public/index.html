@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CODTECH Chat — Real-time</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">CODTECH Chat</div>
+      <div class="join">
+        <input id="username" placeholder="Your name" maxlength="32"/>
+        <input id="room" placeholder="Room (default: General)" maxlength="32"/>
+        <button id="joinBtn">Join</button>
+      </div>
+
+      <div class="meta">
+        <h4>Users</h4>
+        <ul id="users"></ul>
+      </div>
+
+      <footer class="copyright">© CODTECH Chat</footer>
+    </aside>
+
+    <main class="chat-area">
+      <header class="chat-header">
+        <div id="roomLabel">Room: <strong>—</strong></div>
+        <div id="status">Not connected</div>
+      </header>
+
+      <section id="messages" class="messages"></section>
+
+      <div class="typing" id="typingIndicator"></div>
+
+      <form id="msgForm" class="composer">
+        <input id="msgInput" autocomplete="off" placeholder="Type a message..." />
+        <button id="sendBtn" type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
