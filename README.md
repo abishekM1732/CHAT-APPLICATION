@@ -48,7 +48,7 @@ On the frontend, the project uses HTML, CSS, and JavaScript to build a clean, re
 
 <li>.gitignore used to exclude node_modules</li></ul>
 
-*SCREENSHOTS*:
+*SCREENSHOTS*:<br>
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/a3b7fe44-450d-4840-a676-422d6b628ad4" /><br><br>
 
