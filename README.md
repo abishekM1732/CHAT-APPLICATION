@@ -21,6 +21,24 @@ A key feature of this project is the typing indicator, which detects when a user
 
 On the frontend, the project uses HTML, CSS, and JavaScript to build a clean, responsive layout that adapts well to different screen sizes. The interface includes input fields for username and room selection, a scrolling chat message container, an active user panel, and a message composition area. The styling is minimal yet modern, offering a dark-themed interface consistent with contemporary chat application aesthetics. The goal is to deliver a user-friendly chat experience that remains easy to understand and navigate.
 
+<ol>
+  <li>git clone https://github.com/abishekM1732/CHAT-APPLICATION.git and cd CHAT-APPLICATION</li>
+
+  <li>Install backend dependencies using npm install</li>
+
+  <li>Start the server using node server.js</li>
+
+  <li>Verify the server is running on http://localhost:3000 (or the port specified in the code)</li>
+
+  <li>Open a web browser and navigate to http://localhost:3000</li>
+
+  <li>Enter a username and (optionally) a room name to join the chat</li>
+
+  <li>Open the same URL in multiple browser tabs or different devices to test real-time messaging</li>
+
+  <li>Start chatting and observe real-time message delivery, typing indicators, and join/leave notifications</li>
+</ol>
+
 *TECH STACK*:
 
 *Frontend*:
