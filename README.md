@@ -21,6 +21,8 @@ A key feature of this project is the typing indicator, which detects when a user
 
 On the frontend, the project uses HTML, CSS, and JavaScript to build a clean, responsive layout that adapts well to different screen sizes. The interface includes input fields for username and room selection, a scrolling chat message container, an active user panel, and a message composition area. The styling is minimal yet modern, offering a dark-themed interface consistent with contemporary chat application aesthetics. The goal is to deliver a user-friendly chat experience that remains easy to understand and navigate.
 
+*Steps to Run*:
+
 <ol>
   <li>git clone https://github.com/abishekM1732/CHAT-APPLICATION.git and cd CHAT-APPLICATION</li>
 
